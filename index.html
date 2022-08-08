@@ -11,79 +11,62 @@
 
     <audio id="boing" src="assets/boing.wav"></audio>
     <audio id="confirm" src="assets/confirm.mp3"></audio>
+    <audio id="click" src="assets/click.wav"></audio>
 
-  
-
-    <div class="container">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="8" src="assets/woman.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="1" src="assets/baby.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="3" src="assets/teenagers.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="4" src="assets/youth.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="2" src="assets/kids.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="6" src="assets/elderly.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="7" src="assets/man.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="9" src="assets/couple.png">
-        <img class="words" draggable="true" ondragstart="drag(event)" id="5" src="assets/adults.png">
-        
+    <div class="score-container">
+        <h2 class="score">Match the words and the pictures: </h2>
     </div>
 
-    <div class="heading">
-        <h2 id="heading">Matching Game</h2>
+   <div class="general-container">
+        <div id="btnBaby" class="picture">
+            <img id="imgBaby" src="assets/baby.png" alt="">
     </div>
 
-    <div class="container">
+        <div id="btnKids" class="picture">
+            <img id="imgKids" src="assets/kids.png" alt="">
+        </div>
+    
+        <div id="btnTeenagers" class="picture">
+            <img id="imgTeenagers" src="assets/teenagers.png" alt="">
+       </div>
+       
+       <div id="btnYouth" class="picture">
+        <img id="imgYouth" src="assets/youth.png" alt="">
+       </div>
 
-        <div class="figura">
-            <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Baby</h3></div>
-        </div>
+       <div id="btnAdults" class="picture">
+        <img id="imgAdults" src="assets/adults.png" alt="">
+    </div>
 
-        <div class="figura">
-            <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Kids</h3></div>
-        </div>
+    <div id="btnElderly" class="picture">
+        <img id="imgElderly" src="assets/elderly.png" alt="">
+    </div>
 
-        <div class="figura">
-            <div class="box" id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Teenagers</h3></div>
-        </div>
+    <div id="btnMan" class="picture">
+        <img id="imgMan" src="assets/man.png" alt="">
+    </div>
 
-        <div class="figura">
-            <div class="box" id="3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Youth</h3></div>
-        </div>
-        <div class="figura">
-            <div class="box" id="4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Adults</h3></div>
-        </div>
-        <div class="figura">
-            <div class="box" id="5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Elderly</h3></div>
-        </div>
-        <div class="figura">
-            <div class="box" id="6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Man</h3></div>
-        </div>
-        <div class="figura">
-            <div class="box" id="7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Woman</h3></div>
-        </div>
-        <div class="figura">
-            <div class="box" id="8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="caption"><h3>Couple</h3></div>
-        </div>
+    <div id="btnWoman" class="picture">
+        <img id="imgWoman" src="assets/woman.png" alt="">
+    </div>
+
+    <div id="btnCouple" class="picture">
+        <img id="imgCouple" src="assets/couple.png" alt="">
+    </div>
+
+    
+    <button id="btnKidsWord" class="word-button">Kids</button>
+    <button id="btnManWord" class="word-button">Man</button>
+    <button id="btnTeenagersWord" class="word-button">Teenagers</button>
+    <button id="btnCoupleWord" class="word-button">Couple</button>
+    <button id="btnYouthWord" class="word-button">Youth</button>
+    <button id="btnAdultsWord" class="word-button">Adults</button>
+    <button id="btnElderlyWord" class="word-button">Elderly</button>
+    <button id="btnBabyWord" class="word-button">Baby</button>
+    <button id="btnWomanWord" class="word-button">Woman</button>
+    
+ </div>
       
-        
-    </div>
-</div>
-
-    
-    
-
-  
-
-  
-
 
     <script src="script.js"></script>
 </body>
