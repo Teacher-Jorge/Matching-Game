@@ -448,4 +448,41 @@ btnCoupleWord.addEventListener('click', function() {
     }
 })
 
+//Practice
+let btnPractice = document.getElementById('btnPractice')
+let practiceWord = document.getElementById('practiceWord')
+
+btnPractice.addEventListener('click', function() {
+    let audioPractice = document.getElementById('practice')
+    audioPractice.play()
+    practiceWord.innerHTML = 'Baby'
+    setTimeout(() => {
+        practiceWord.innerHTML = 'Kids'
+        setTimeout(() => {
+            practiceWord.innerHTML = 'Teenagers'
+            setTimeout(() => {
+                practiceWord.innerHTML = 'Youth'
+                setTimeout(() => {
+                    practiceWord.innerHTML = 'Adults'
+                    setTimeout(() => {
+                        practiceWord.innerHTML = 'Elderly'
+                        setTimeout(() => {
+                            practiceWord.innerHTML = 'Man'
+                            setTimeout(() => {
+                                practiceWord.innerHTML = 'Woman'
+                                setTimeout(() => {
+                                    practiceWord.innerHTML = 'Couple'
+                                    setTimeout(() => {
+                                        practiceWord.innerHTML = ''
+                                    }, 2000)
+                                }, 2000)
+                            }, 2000)
+                        }, 2000)
+                    }, 2000)
+                }, 2000)
+            }, 2000)
+        }, 2000) 
+    },2000)
+})
+
 
